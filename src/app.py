@@ -17,3 +17,9 @@ def sum( a:int, b: int):
 
 
 
+    
+@app.route('/multiply/<int:a>/<int:b>')
+def multiply( a:int, b: int):
+    result = float (a * b)
+    return f"El resultado es: {str(result)}"
+
