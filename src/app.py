@@ -4,11 +4,11 @@ app=Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Bye code"
+    return "Bye code!"
 
 @app.route('/hello')
 def greeting():
-    return "Hello world"
+    return "Hello User"
 
 @app.route('/sum/<int:a>/<int:b>')
 def sum( a:int, b: int):
