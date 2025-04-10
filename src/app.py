@@ -13,4 +13,5 @@ def greeting():
 @app.route('/sum/<int:a>/<int:b>')
 def sum( a:int, b: int):
     nums_sum = a + b
-    return f"La suma es igual a: {str(nums_sum)}"
+    return f"La suma es igual aa: {str(nums_sum)}"
+
